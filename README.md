@@ -135,6 +135,7 @@ renderTabBar={props =>
 - `getAccessible`: callback which returns a boolean to indicate whether to mark a tab as `accessible`. Defaults to `true`.
 - `getAccessibilityLabel`: callback which returns an accessibility label for the tab. Defaults to route title.
 - `getTestID`: callback which returns a test id for the tab.
+- `pointerEvents`: whether to allow pointer events on tab bar sub elements.  Defaults to `none`, set to `auto` to allow.
 - `renderIcon`: callback which returns a custom React Element to be used as a icon.
 - `renderLabel`: callback which returns a custom React Element to be used as a label.
 - `renderIndicator`: callback which returns a custom React Element to be used as a tab indicator.
