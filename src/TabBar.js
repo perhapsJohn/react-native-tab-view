@@ -488,7 +488,7 @@ export default class TabBar<T: *> extends React.Component<Props<T>, State> {
                   onLongPress={() => this._handleTabLongPress({ route })}
                   style={tabContainerStyle}
                 >
-                  <View pointerEvents="none" style={styles.container}>
+                  <View pointerEvents={this.props.pointerEvents || "none"} style={styles.container}>
                     <Animated.View
                       style={[
                         styles.tabItem,
