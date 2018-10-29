@@ -27,6 +27,7 @@ type Props<T> = SceneRendererProps<T> & {
   scrollEnabled?: boolean,
   bounces?: boolean,
   pressColor?: string,
+  pointerEvents?: string,
   pressOpacity?: number,
   getLabelText: (scene: Scene<T>) => ?string,
   getAccessible: (scene: Scene<T>) => ?boolean,
